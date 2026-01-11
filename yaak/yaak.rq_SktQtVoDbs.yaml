@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_SktQtVoDbs
+createdAt: 2026-01-11T02:26:55.924192
+updatedAt: 2026-01-11T02:30:59.739539
+workspaceId: wk_YYPiKrvGRU
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "devices": ["light.middle_light", "light.middle_table_light"],
+      "state": "off"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: i2ZkWuTHiS
+- enabled: true
+  name: Authorization
+  value: Bearer test
+  id: CpxZSepKbu
+method: POST
+name: ''
+sortPriority: -1768049897064.0
+url: http://localhost:3000/batch/ha/set
+urlParameters: []

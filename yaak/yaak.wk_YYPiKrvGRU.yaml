@@ -1,0 +1,14 @@
+type: workspace
+model: workspace
+id: wk_YYPiKrvGRU
+createdAt: 2026-01-10T12:58:13.543221
+updatedAt: 2026-01-10T12:58:13.543221
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: yh_custom_home_api_application
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0

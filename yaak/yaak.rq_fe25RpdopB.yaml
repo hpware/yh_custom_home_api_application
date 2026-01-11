@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_fe25RpdopB
+createdAt: 2026-01-10T12:58:17.066319
+updatedAt: 2026-01-10T14:56:27.498467
+workspaceId: wk_YYPiKrvGRU
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "state":"on"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer test
+  id: JtGAKABp7t
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: IaJX5qchdh
+method: POST
+name: localhost:3000/ha/set/light.middle_light
+sortPriority: -1768049897064.0
+url: http://localhost:3000/ha/set/light.all
+urlParameters: []

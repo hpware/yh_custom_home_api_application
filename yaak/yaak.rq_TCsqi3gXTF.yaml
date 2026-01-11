@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_TCsqi3gXTF
+createdAt: 2026-01-10T13:05:04.860226
+updatedAt: 2026-01-11T02:23:35.108116
+workspaceId: wk_YYPiKrvGRU
+folderId: null
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer test
+  id: 7tmgPGtNtZ
+method: GET
+name: ''
+sortPriority: -1768049897064.0
+url: http://localhost:3000/ha/get/light.middle_light
+urlParameters: []

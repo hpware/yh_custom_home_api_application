@@ -2,7 +2,10 @@
   "name": "yh_custom_home_api_application",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "private": false,
+  "scripts": {
+    "start": "bun run app/index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
