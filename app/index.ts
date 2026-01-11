@@ -15,7 +15,7 @@ Bun.serve({
       if (
         !(
           bearer &&
-          bearer.includes("Bearer ") &&
+          bearer.startsWith("Bearer ") &&
           bearer.replace("Bearer ", "") ===
             process.env.SERVICE_REQUIRED_API_TOKEN
         )
